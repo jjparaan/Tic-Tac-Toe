@@ -4,6 +4,12 @@ const { Schema } = mongoose;
 
 const ScoreboardSchema = new Schema(
 	{
+		winner: {
+			pName: {
+				type: String,
+				required: [true, "winner's pName field is expecting a value"],
+			},
+		},
 		playerOne: {
 			pOneName: {
 				type: String,

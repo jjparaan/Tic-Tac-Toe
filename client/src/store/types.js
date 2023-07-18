@@ -1,0 +1,3 @@
+export const GET_RESPONSE = "GET_RESPONSE";
+
+export const GET_SCOREBOARD = "GET_SCOREBOARD";

@@ -4,8 +4,8 @@ import { Typography } from "@mui/material/";
 
 const Title = () => {
 	return (
-		<Typography variant="h2" gutterBottom>
-			Play TicTacToe Game!
+		<Typography variant="h4" gutterBottom>
+			Tic Tac Toe
 		</Typography>
 	);
 };
